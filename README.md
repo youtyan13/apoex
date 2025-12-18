@@ -1,0 +1,3 @@
+現在の内容
+・Apotheotic AdditionsとApotheosis Modern Ragnarok: Zeroによる銃火器のAffixレアリティがともなっていない問題と、欠如を修正
+・Esoteric ReforgingによるEsoteric Reforging Tableのレシピを追加
