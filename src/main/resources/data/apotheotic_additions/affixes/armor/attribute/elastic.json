@@ -1,0 +1,29 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "forge:step_height_addition",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 2,
+			"steps": 3,
+			"step": 0.25
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 2,
+			"steps": 3,
+			"step": 0.25
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 3,
+			"steps": 5,
+			"step": 0.50
+		}
+	},
+	"types": [
+		"boots"
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:healing_received",
+	"operation": "MULTIPLY_TOTAL",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 0.25,
+			"steps": 8,
+			"step": 0.05
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.30,
+			"steps": 10,
+			"step": 0.05
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 0.50,
+			"steps": 15,
+			"step": 0.10
+		}
+	},
+	"types": [
+		"chestplate", "leggings"
+	]
+}
