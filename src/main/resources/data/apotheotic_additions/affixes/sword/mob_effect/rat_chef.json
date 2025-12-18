@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "rats:synesthesia",
+	"target": "ATTACK_SELF",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 20,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"ancient": {
+			"duration": {
+				"min": 40,
+				"steps": 3,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 200,
+				"steps": 3,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 500,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 800,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}
