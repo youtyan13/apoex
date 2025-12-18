@@ -1,0 +1,35 @@
+{
+	"type": "apotheosis:catalyzing",
+	"values": {
+		"epic": {
+			"min": 200,
+			"steps": 10,
+			"step": 20
+		},
+		"mythic": {
+			"min": 300,
+			"steps": 10,
+			"step": 20
+		},
+		"ancient": {
+			"min": 600,
+			"steps": 10,
+			"step": 20
+		},
+		"apotheotic_additions:artifact": {
+			"min": 700,
+			"steps": 10,
+			"step": 20
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 800,
+			"steps": 10,
+			"step": 20
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 1000,
+			"steps": 10,
+			"step": 20
+		}
+	}
+}
