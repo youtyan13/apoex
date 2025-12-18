@@ -1,0 +1,21 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:fire_damage",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:esoteric": {
+			"min": 20,
+			"steps": 20,
+			"step": 2
+		}
+	},
+	"types": [
+		"sword",
+		"trident",
+		"heavy_weapon"
+	]
+}

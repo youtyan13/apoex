@@ -1,0 +1,78 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "cataclysm:abyssal_curse",
+	"target": "ATTACK_TARGET",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 40,
+				"steps": 2,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"epic": {
+			"duration": {
+				"min": 80,
+				"steps": 4,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"mythic": {
+			"duration": {
+				"min": 120,
+				"steps": 4,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"ancient": {
+			"duration": {
+				"min": 140,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 1,
+			"cooldown": 800
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 160,
+				"steps": 8,
+				"step": 20
+			},
+			"amplifier": 1,
+			"cooldown": 800
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 500,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 2,
+			"cooldown": 800
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 900,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 2,
+			"cooldown": 800
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

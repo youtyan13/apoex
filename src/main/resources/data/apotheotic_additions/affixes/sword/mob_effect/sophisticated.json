@@ -1,0 +1,38 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "attributeslib:knowledge",
+	"target": "ATTACK_SELF",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 100,
+				"steps": 7,
+				"step": 20
+			},
+			"amplifier": 3,
+			"cooldown": 400
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 100,
+				"steps": 8,
+				"step": 20
+			},
+			"amplifier": 4,
+			"cooldown": 400
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 100,
+				"steps": 9,
+				"step": 20
+			},
+			"amplifier": 4,
+			"cooldown": 400
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}
