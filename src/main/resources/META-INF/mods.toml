@@ -33,7 +33,7 @@ description='''${mod_description}'''
 modId="apotheosis"
 mandatory=true
 versionRange="${apo_version}"
-ordering="NONE"
+ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
