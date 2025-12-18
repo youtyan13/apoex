@@ -1,0 +1,20 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:esoteric": {
+			"min": 100,
+			"steps": 350,
+			"step": 1
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
+	]
+}

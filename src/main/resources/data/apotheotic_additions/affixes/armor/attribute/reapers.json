@@ -1,0 +1,59 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "malum:spirit_spoils",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 2,
+			"steps": 2,
+			"step": 1
+		},
+		"uncommon": {
+			"min": 2,
+			"steps": 2,
+			"step": 1
+		},
+		"rare": {
+			"min": 3,
+			"steps": 3,
+			"step": 1
+		},
+		"epic": {
+			"min": 3,
+			"steps": 5,
+			"step": 1
+		},
+		"mythic": {
+			"min": 3,
+			"steps": 5,
+			"step": 1
+		},
+		"ancient": {
+			"min": 4,
+			"steps": 8,
+			"step": 1
+		},
+		"apotheotic_additions:artifact": {
+			"min": 4,
+			"steps": 9,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 5,
+			"steps": 10,
+			"step": 1
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 8,
+			"steps": 15,
+			"step": 1
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

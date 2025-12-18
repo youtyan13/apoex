@@ -1,6 +1,6 @@
 {
 	"type": "apotheosis:attribute",
-	"attribute": "minecraft:generic.armor",
+	"attribute": "minecraft:generic.max_health",
 	"operation": "ADDITION",
 	"values": {
 		"apotheotic_additions:artifact": {
@@ -9,9 +9,9 @@
 			"step": 1
 		},
 		"apotheotic_additions:heirloom": {
-			"min": 12,
-			"steps": 10,
-			"step": 1.2
+			"min": 15,
+			"steps": 12,
+			"step": 1.5
 		}
 	},
 	"types": [

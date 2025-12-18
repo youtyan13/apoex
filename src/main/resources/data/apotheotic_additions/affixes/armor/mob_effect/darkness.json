@@ -1,0 +1,73 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:darkness",
+	"target": "HURT_ATTACKER",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 10,
+				"steps": 20,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"epic": {
+			"duration": {
+				"min": 20,
+				"steps": 20,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 700
+		},
+		"mythic": {
+			"duration": {
+				"min": 30,
+				"steps": 25,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"ancient": {
+			"duration": {
+				"min": 40,
+				"steps": 30,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 60,
+				"steps": 30,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 120,
+				"steps": 30,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 200,
+				"steps": 30,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"chestplate", "leggings"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "combatroll"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "combatroll:count",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 1,
+			"steps": 1,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 1,
+			"steps": 2,
+			"step": 1
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 2,
+			"steps": 1,
+			"step": 1
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
+	]
+}
