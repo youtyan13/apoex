@@ -1,0 +1,34 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:wither",
+	"target": "BLOCK_ATTACKER",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 80,
+				"steps": 6,
+				"step": 40
+			},
+			"amplifier": 3
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 80,
+				"steps": 6,
+				"step": 40
+			},
+			"amplifier": 3
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 80,
+				"steps": 7,
+				"step": 40
+			},
+			"amplifier": 3
+		}
+	},
+	"types": [
+		"shield"
+	]
+}
