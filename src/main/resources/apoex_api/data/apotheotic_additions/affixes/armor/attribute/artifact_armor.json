@@ -1,0 +1,25 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.armor",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 5,
+			"steps": 7,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 7,
+			"steps": 8,
+			"step": 1.2
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
+	]
+}

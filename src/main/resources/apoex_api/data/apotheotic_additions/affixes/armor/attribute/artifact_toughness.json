@@ -4,26 +4,22 @@
 		"modid": "apotheotic_additions"
 	}],
 	"type": "apotheosis:attribute",
-	"attribute": "forge:swim_speed",
-	"operation": "MULTIPLY_TOTAL",
+	"attribute": "minecraft:generic.armor_toughness",
+	"operation": "ADDITION",
 	"values": {
 		"apotheotic_additions:artifact": {
-			"min": 0.50,
+			"min": 2,
 			"steps": 10,
-			"step": 0.05
+			"step": 0.5
 		},
 		"apotheotic_additions:heirloom": {
-			"min": 0.50,
-			"steps": 12,
-			"step": 0.05
-		},
-		"apotheotic_additions:esoteric": {
-			"min": 1.0,
-			"steps": 14,
-			"step": 0.05
+			"min": 3,
+			"steps": 10,
+			"step": 1
 		}
 	},
 	"types": [
-		"boots"
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
 	]
 }

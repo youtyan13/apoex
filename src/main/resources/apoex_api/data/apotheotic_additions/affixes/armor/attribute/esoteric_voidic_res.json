@@ -1,0 +1,24 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "voidscape"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "voidscape:voidic_res",
+  "operation": "MULTIPLY_BASE",
+  "values": {
+    "apotheotic_additions:esoteric": {
+			"min": 0.10,
+			"steps": 8,
+			"step": 0.170
+		}
+  },
+  "types": [
+		"helmet", "chestplate", "leggings",
+		"shield"
+  ]
+}

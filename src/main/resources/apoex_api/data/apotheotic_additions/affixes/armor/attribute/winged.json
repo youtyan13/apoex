@@ -1,0 +1,17 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:elytra_flight",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": 1,
+		"apotheotic_additions:heirloom": 1,
+		"apotheotic_additions:esoteric": 1
+	},
+	"types": [
+		"chestplate"
+	]
+}
