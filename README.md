@@ -23,3 +23,7 @@ forge 1.20.1
 - ファイルの整理
 - 元のApotheosisのAffix情報が上書きされてしまう問題を修正
 - 一部の動作でapotheotic additionsが無いのに要求してクラッシュする問題を修正
+> ver.0.0.4-alphaの内容
+- ファイルの整理
+- データパックの上下関係により動作が不安定になってしまう問題を修正
+- Apothetic Additionsの特定のAffixレアリティの一部の能力値を下げました
