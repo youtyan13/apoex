@@ -6,7 +6,6 @@ forge 1.20.1
 - [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
 ## 連携Mod
 - Apotheotic Additions
-- Apotheosis Modern Ragnarok: Zero
 - Esoteric Reforging
 ## version.log
 > ver.0.0.1-alphaの内容
@@ -20,3 +19,6 @@ forge 1.20.1
 > ver.0.0.2-alpha-fixの内容
 - Apotheosis Additionsの全てのAffixレアリティの防具の属性ダメージ耐性を全体的に下げました
 - Affixの能力が重複していたためファイルの整理
+> ver.0.0.3-alphaの内容
+- ファイルの整理
+- 元のApotheosisのAffix情報が上書きされてしまう問題を修正
