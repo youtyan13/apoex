@@ -22,8 +22,8 @@
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/fire_damage.suffix": "焼夷弾の",
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage": "虚無に誘う",
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage.suffix": "深淵の",
-  "affix.apotheotic_additions:ragnarok/shotgun/effect/rage": "原始の力を帯びた",
-  "affix.apotheotic_additions:ragnarok/shotgun/effect/rage.suffix": "トレモサウルスの",
+  "affix.apotheotic_additions:ragnarok/shotgun/mob_effect/rage": "原始の力を帯びた",
+  "affix.apotheotic_additions:ragnarok/shotgun/mob_effect/rage.suffix": "トレモサウルスの",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage": "弾丸も凍る",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage.suffix": "極北の",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/fire_damage": "汚物消毒する",
@@ -637,5 +637,275 @@
   "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res": "存在しない",
   "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res.suffix": "妄想の",
   "affix.apotheotic_additions:armor/attribute/spirit_spoils": "精神を蝕む",
-  "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "精神疲労の"
+  "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "精神疲労の",
+  "comment": "apotheosis本家",
+  "affix.apotheotic_additions:armor/attribute/blessed": "祝福された",
+    "affix.apotheotic_additions:armor/attribute/blessed.suffix": "壮健な",
+
+    "affix.apotheotic_additions:armor/attribute/windswept": "吹きさらされた",
+    "affix.apotheotic_additions:armor/attribute/windswept.suffix": "つむじ風の",
+
+    "affix.apotheotic_additions:armor/attribute/ironforged": "鉄鍛造された",
+    "affix.apotheotic_additions:armor/attribute/ironforged.suffix": "黒鉄の",
+
+    "affix.apotheotic_additions:sword/attribute/violent": "暴力的な",
+    "affix.apotheotic_additions:sword/attribute/violent.suffix": "悪逆の",
+
+    "affix.apotheotic_additions:ranged/attribute/windswept": "吹きさらされた",
+    "affix.apotheotic_additions:ranged/attribute/windswept.suffix": "つむじ風の",
+
+    "affix.apotheotic_additions:sword/attribute/graceful": "優雅な",
+    "affix.apotheotic_additions:sword/attribute/graceful.suffix": "剣舞の",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/forceful": "力強い",
+    "affix.apotheotic_additions:heavy_weapon/attribute/forceful.suffix": "暴れ牛の",
+
+    "affix.apotheotic_additions:armor/attribute/aquatic": "しっとりした",
+    "affix.apotheotic_additions:armor/attribute/aquatic.suffix": "水練の",
+
+    "affix.apotheotic_additions:armor/attribute/gravitational": "宙に浮く",
+    "affix.apotheotic_additions:armor/attribute/gravitational.suffix": "重力の",
+
+    "affix.apotheotic_additions:breaker/attribute/lengthy": "長い",
+    "affix.apotheotic_additions:breaker/attribute/lengthy.suffix": "如意棒の",
+
+    "affix.apotheotic_additions:breaker/attribute/experienced": "熟練した",
+    "affix.apotheotic_additions:breaker/attribute/experienced.suffix": "蛍雪の",
+
+    "affix.apotheotic_additions:sword/attribute/elongated": "細長い",
+    "affix.apotheotic_additions:sword/attribute/elongated.suffix": "達人の",
+
+    "affix.apotheotic_additions:ranged/attribute/agile": "敏捷な",
+    "affix.apotheotic_additions:ranged/attribute/agile.suffix": "射手の",
+
+    "affix.apotheotic_additions:armor/attribute/steel_touched": "鍛えぬいた",
+    "affix.apotheotic_additions:armor/attribute/steel_touched.suffix": "守護神の",
+
+    "affix.apotheotic_additions:armor/attribute/stalwart": "屈強な",
+    "affix.apotheotic_additions:armor/attribute/stalwart.suffix": "頑固者の",
+
+    "affix.apotheotic_additions:armor/attribute/elastic": "弾性のある",
+    "affix.apotheotic_additions:armor/attribute/elastic.suffix": "登山家の",
+
+    "affix.apotheotic_additions:armor/attribute/fortunate": "幸運な",
+    "affix.apotheotic_additions:armor/attribute/fortunate.suffix": "招き猫の",
+    
+    "affix.apotheotic_additions:armor/attribute/winged": "翼のある",
+    "affix.apotheotic_additions:armor/attribute/winged.suffix": "天空の",
+
+    "affix.apotheotic_additions:sword/attribute/intricate": "複雑な",
+    "affix.apotheotic_additions:sword/attribute/intricate.suffix": "首はね兎の",
+
+    "affix.apotheotic_additions:sword/attribute/lacerating": "鋭い",
+    "affix.apotheotic_additions:sword/attribute/lacerating.suffix": "一撃必殺の",
+
+    "affix.apotheotic_additions:sword/attribute/glacial": "凍てつく",
+    "affix.apotheotic_additions:sword/attribute/glacial.suffix": "氷河の",
+
+    "affix.apotheotic_additions:sword/attribute/infernal": "燃えたぎる",
+    "affix.apotheotic_additions:sword/attribute/infernal.suffix": "日輪の",
+
+    "affix.apotheotic_additions:sword/attribute/vampiric": "血に飢えた",
+    "affix.apotheotic_additions:sword/attribute/vampiric.suffix": "吸魂の",
+
+    "affix.apotheotic_additions:sword/attribute/piercing": "貫通する",
+    "affix.apotheotic_additions:sword/attribute/piercing.suffix": "肉斬骨断の",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/shredding": "そぎ落とす",
+    "affix.apotheotic_additions:heavy_weapon/attribute/shredding.suffix": "裁断者の",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/giant_slaying": "鬼も殺す",
+    "affix.apotheotic_additions:heavy_weapon/attribute/giant_slaying.suffix": "巨人狩りの",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/berserking": "恍惚なる",
+    "affix.apotheotic_additions:heavy_weapon/attribute/berserking.suffix": "狂戦士の",
+
+    "affix.apotheotic_additions:breaker/attribute/destructive": "破壊的な",
+    "affix.apotheotic_additions:breaker/attribute/destructive.suffix": "採掘機の",
+
+    "affix.apotheotic_additions:ranged/attribute/elven": "森に住む",
+    "affix.apotheotic_additions:ranged/attribute/elven.suffix": "正鵠の",
+
+    "affix.apotheotic_additions:ranged/attribute/streamlined": "合理化された",
+    "affix.apotheotic_additions:ranged/attribute/streamlined.suffix": "狙撃手の",
+    
+    "affix.apotheotic_additions:sword/mob_effect/elusive": "自由自在な",
+    "affix.apotheotic_additions:sword/mob_effect/elusive.suffix": "神出鬼没の",
+
+    "affix.apotheotic_additions:breaker/mob_effect/swift": "迅速な",
+    "affix.apotheotic_additions:breaker/mob_effect/swift.suffix": "連撃の",
+
+    "affix.apotheotic_additions:breaker/mob_effect/spelunkers": "勇気ある",
+    "affix.apotheotic_additions:breaker/mob_effect/spelunkers.suffix": "冒険者の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/ensnaring": "罠にかける",
+    "affix.apotheotic_additions:ranged/mob_effect/ensnaring.suffix": "捕食者の",
+
+    "affix.apotheotic_additions:shield/mob_effect/venomous": "毒々しい",
+    "affix.apotheotic_additions:shield/mob_effect/venomous.suffix": "毒蛇の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/fleeting": "軽快な", 
+    "affix.apotheotic_additions:ranged/mob_effect/fleeting.suffix": "遊撃手の",
+
+    "affix.apotheotic_additions:sword/mob_effect/weakening": "弱体化する",
+    "affix.apotheotic_additions:sword/mob_effect/weakening.suffix": "冥土の",
+
+    "affix.apotheotic_additions:armor/mob_effect/bolstering": "強化する",
+    "affix.apotheotic_additions:armor/mob_effect/bolstering.suffix": "不屈の",
+
+    "affix.apotheotic_additions:armor/mob_effect/revitalizing": "活性化する",
+    "affix.apotheotic_additions:armor/mob_effect/revitalizing.suffix": "湧水の",
+
+    "affix.apotheotic_additions:armor/mob_effect/nimble": "機敏な",
+    "affix.apotheotic_additions:armor/mob_effect/nimble.suffix": "野狐の",
+
+    "affix.apotheotic_additions:armor/mob_effect/blinding": "直視できない",
+    "affix.apotheotic_additions:armor/mob_effect/blinding.suffix": "盲目の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/shulkers": "質量がおかしい",
+    "affix.apotheotic_additions:ranged/mob_effect/shulkers.suffix": "浮遊の",
+
+    "affix.apotheotic_additions:shield/mob_effect/withering": "虚ろな",
+    "affix.apotheotic_additions:shield/mob_effect/withering.suffix": "闇骸骨の",
+
+    "affix.apotheotic_additions:shield/attribute/ironforged": "鉄鍛造された",
+    "affix.apotheotic_additions:shield/attribute/ironforged.suffix": "黒鉄の",
+
+    "affix.apotheotic_additions:shield/attribute/steel_touched": "鍛えぬいた",
+    "affix.apotheotic_additions:shield/attribute/steel_touched.suffix": "守護神の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/ivy_laced": "毒々しい",
+    "affix.apotheotic_additions:ranged/mob_effect/ivy_laced.suffix": "毒素の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/satanic": "悪魔的な",
+    "affix.apotheotic_additions:ranged/mob_effect/satanic.suffix": "地獄炎の",
+
+    "affix.apotheotic_additions:ranged/special/spectral": "おぼろげな",
+    "affix.apotheotic_additions:ranged/special/spectral.suffix": "鏡影の",
+    "affix.apotheotic_additions:ranged/special/spectral.desc": "%s%%の確率で2本目の矢を放ちます。",
+    
+    "affix.apotheotic_additions:ranged/special/magical": "幻想的な",
+    "affix.apotheotic_additions:ranged/special/magical.suffix": "魔矢の",
+    "affix.apotheotic_additions:ranged/special/magical.desc": "矢で魔法ダメージを与えられます。",
+    
+    "affix.apotheotic_additions:sword/special/festive": "ウキウキする",
+    "affix.apotheotic_additions:sword/special/festive.suffix": "祝祭の",
+    "affix.apotheotic_additions:sword/special/festive.desc": "敵を倒すと%s%%の確率でピニャータの戦利品が手に入ります。",
+    
+    "affix.apotheotic_additions:sword/special/thunderstruck": "轟く",
+    "affix.apotheotic_additions:sword/special/thunderstruck.suffix": "衝撃の",
+    "affix.apotheotic_additions:sword/special/thunderstruck.desc": "周囲の敵に%sダメージを与えます。",
+    
+    "affix.apotheotic_additions:shield/special/retreating": "後退する",
+    "affix.apotheotic_additions:shield/special/retreating.suffix": "道化師の",
+    "affix.apotheotic_additions:shield/special/retreating.desc": "近接攻撃をブロックすると、後ろにジャンプします。",
+    
+    "affix.apotheotic_additions:telepathic": "引き寄せる",
+    "affix.apotheotic_additions:telepathic.suffix": "念動力の",
+    "affix.apotheotic_additions:telepathic.desc.weapon": "モブドロップが自分にテレポートしてきます。",
+    "affix.apotheotic_additions:telepathic.desc.tool": "モブドロップが自分にテレポートしてきます。",
+
+    "affix.apotheotic_additions:heavy_weapon/special/executing": "執行する",
+    "affix.apotheotic_additions:heavy_weapon/special/executing.suffix": "処刑人の",
+    "affix.apotheotic_additions:heavy_weapon/special/executing.desc": "最大体力が%s%%以下の敵を処刑します。",
+    
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving": "薙ぎ払う",
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving.suffix": "肉切包丁の",
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving.desc": "%s%%の確率で近くの敵に%sまで命中する。",
+
+    "affix.apotheotic_additions:breaker/special/enlightened": "明かりを灯す",
+    "affix.apotheotic_additions:breaker/special/enlightened.suffix": "ともし火の",
+    "affix.apotheotic_additions:breaker/special/enlightened.desc": "このツールは、耐久度を%s犠牲にして松明を設置できる。",
+
+    "affix.apotheotic_additions:shield/special/psychic": "跳ね返す",
+    "affix.apotheotic_additions:shield/special/psychic.suffix": "復讐の",
+    "affix.apotheotic_additions:shield/special/psychic.desc": "弾を防ぐと、射手に%s%%のダメージを与えます。",
+
+    "affix.apotheotic_additions:shield/special/catalyzing": "触媒する",
+    "affix.apotheotic_additions:shield/special/catalyzing.suffix": "衝撃吸収の",
+    "affix.apotheotic_additions:shield/special/catalyzing.desc": "爆発をブロックすると、強力な力を得られます。",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/annihilating": "殲滅する",
+    "affix.apotheotic_additions:heavy_weapon/attribute/annihilating.suffix": "凶手の",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/decimating": "解体する",
+    "affix.apotheotic_additions:heavy_weapon/attribute/decimating.suffix": "皆殺しの",
+    
+    "affix.apotheotic_additions:heavy_weapon/attribute/murderous": "殺人的な",
+    "affix.apotheotic_additions:heavy_weapon/attribute/murderous.suffix": "紫電一閃の",
+    
+    "affix.apotheotic_additions:ranged/mob_effect/acidic": "ピリピリする",
+    "affix.apotheotic_additions:ranged/mob_effect/acidic.suffix": "腐食な",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/bloodletting": "引き裂く",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/bloodletting.suffix": "血の池の",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/caustic": "焼けただれる",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/caustic.suffix": "浸蝕の",
+
+    "affix.apotheotic_additions:sword/mob_effect/sophisticated": "洗練された",
+    "affix.apotheotic_additions:sword/mob_effect/sophisticated.suffix": "温故知新の",
+
+    "affix.apotheotic_additions:shield/mob_effect/devilish": "小悪魔な",
+    "affix.apotheotic_additions:shield/mob_effect/devilish.suffix": "百戦錬磨の",
+
+    "affix.apotheotic_additions:breaker/special/radial": "放射する",
+    "affix.apotheotic_additions:breaker/special/radial.suffix": "一括破壊の",
+    "affix.apotheotic_additions:breaker/special/radial.desc": "このツールは%sx%sエリアを破壊します。",
+    "affix.apotheotic_additions:melee_weapon/mob_effect/detonating": "爆発する",
+    "affix.apotheotic_additions:melee_weapon/mob_effect/detonating.suffix": "炎元素の",
+    
+    "misc.apotheosis.iron": "鉄",
+    "misc.apotheosis.diamond": "ダイヤモンド",
+    "misc.apotheosis.netherite": "ネザライト",
+    
+    "affix.apotheotic_additions:breaker/special/omnetic": "万能な",
+    "affix.apotheotic_additions:breaker/special/omnetic.suffix": "《特異点》",
+    "affix.apotheotic_additions:breaker/special/omnetic.desc": "このツールはあらゆるブロックに対して%sツールの効果を発揮します。",
+    
+    "misc.apotheosis.physical": "物理",
+    "misc.apotheosis.magic": "魔法",
+    "misc.apotheosis.fire": "火上",
+    "misc.apotheosis.fall": "落下",
+    "misc.apotheosis.explosion": "爆発",
+    "affix.apotheotic_additions:damage_reduction.desc": "%sダメージが%s%%減少します。",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/blockading": "封鎖する",
+    "affix.apotheotic_additions:armor/dmg_reduction/blockading.suffix": "堅牢の",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/runed": "魔法をかけた",
+    "affix.apotheotic_additions:armor/dmg_reduction/runed.suffix": "魔法障壁の",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/blast_forged": "爆発する",
+    "affix.apotheotic_additions:armor/dmg_reduction/blast_forged.suffix": "鍛冶神の",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/dwarven": "ドワーフの",
+    "affix.apotheotic_additions:armor/dmg_reduction/dwarven.suffix": "活火山の",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/feathery": "羽毛のような",
+    "affix.apotheotic_additions:armor/dmg_reduction/feathery.suffix": "羽衣の",
+
+    "affix.apotheotic_additions:shield/attribute/stalwart": "屈強な",
+    "affix.apotheotic_additions:shield/attribute/stalwart.suffix": "頑固者の",
+
+    "affix.apotheotic_additions:armor/attribute/spiritual": "霊的な",
+    "affix.apotheotic_additions:armor/attribute/spiritual.suffix": "杏林の",
+    
+    "affix.apotheotic_additions:breaker/attribute/lucky": "幸運な",
+    "affix.apotheotic_additions:breaker/attribute/lucky.suffix": "宝探しの",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/nullifying": "無効化する",
+    "affix.apotheotic_additions:heavy_weapon/attribute/nullifying.suffix": "魔女狩りの",
+
+    "affix.apotheotic_additions:sword/attribute/spellbreaking": "魔法を解く",
+    "affix.apotheotic_additions:sword/attribute/spellbreaking.suffix": "分解の",
+
+    "affix.apotheotic_additions:ranged/mob_effect/grievous": "残忍な",
+    "affix.apotheotic_additions:ranged/mob_effect/grievous.suffix": "咎人の",
+
+    "affix.apotheotic_additions:armor/mob_effect/bursting": "炸裂する",
+    "affix.apotheotic_additions:armor/mob_effect/bursting.suffix": "生命力の",
+
+    "affix.apotheotic_additions:durable": "丈夫な",
+    "affix.apotheotic_additions:durable.suffix": "極上の"
 }

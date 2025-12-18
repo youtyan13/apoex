@@ -22,8 +22,8 @@
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/fire_damage.suffix": "of Flaming Bullets",
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage": "Voidbound",
   "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage.suffix": "of the Void Lord",
-  "affix.apotheotic_additions:ragnarok/shotgun/effect/rage": "Tremorsaurus's",
-  "affix.apotheotic_additions:ragnarok/shotgun/effect/rage.suffix": "of the Primordial Caves",
+  "affix.apotheotic_additions:ragnarok/shotgun/mob_effect/rage": "Tremorsaurus's",
+  "affix.apotheotic_additions:ragnarok/shotgun/mob_effect/rage.suffix": "of the Primordial Caves",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage": "Arctic",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage.suffix": "of Frozen Bullets",
   "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/fire_damage": "Brimstone",
@@ -637,5 +637,276 @@
   "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res": "Void-lost",
   "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res.suffix": "of Paranoia",
   "affix.apotheotic_additions:armor/attribute/spirit_spoils": "Spiritborne",
-  "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "of Spirit Stealing"
+  "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "of Spirit Stealing",
+  "comment": "original apotheosis",
+  "affix.apotheotic_additions:armor/attribute/blessed": "Blessed",
+    "affix.apotheotic_additions:armor/attribute/blessed.suffix": "of Health",
+
+    "affix.apotheotic_additions:armor/attribute/windswept": "Windswept",
+    "affix.apotheotic_additions:armor/attribute/windswept.suffix": "of the Current",
+
+    "affix.apotheotic_additions:armor/attribute/ironforged": "Ironforged",
+    "affix.apotheotic_additions:armor/attribute/ironforged.suffix": "of Iron",
+
+    "affix.apotheotic_additions:sword/attribute/violent": "Violent",
+    "affix.apotheotic_additions:sword/attribute/violent.suffix": "of Slaying",
+
+    "affix.apotheotic_additions:ranged/attribute/windswept": "Windswept",
+    "affix.apotheotic_additions:ranged/attribute/windswept.suffix": "of the Current",
+
+    "affix.apotheotic_additions:sword/attribute/graceful": "Graceful",
+    "affix.apotheotic_additions:sword/attribute/graceful.suffix": "of the Duelist",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/forceful": "Forceful",
+    "affix.apotheotic_additions:heavy_weapon/attribute/forceful.suffix": "of the Bull",
+
+    "affix.apotheotic_additions:armor/attribute/aquatic": "Aquatic",
+    "affix.apotheotic_additions:armor/attribute/aquatic.suffix": "of the Ocean",
+
+    "affix.apotheotic_additions:armor/attribute/gravitational": "Gravitational",
+    "affix.apotheotic_additions:armor/attribute/gravitational.suffix": "of Gravity",
+
+    "affix.apotheotic_additions:breaker/attribute/lengthy": "Lengthy",
+    "affix.apotheotic_additions:breaker/attribute/lengthy.suffix": "of Grasping",
+
+    "affix.apotheotic_additions:breaker/attribute/experienced": "Experienced",
+    "affix.apotheotic_additions:breaker/attribute/experienced.suffix": "of the Scholar",
+
+    "affix.apotheotic_additions:sword/attribute/elongated": "Elongated",
+    "affix.apotheotic_additions:sword/attribute/elongated.suffix": "of Distant Battles",
+
+    "affix.apotheotic_additions:ranged/attribute/agile": "Agile",
+    "affix.apotheotic_additions:ranged/attribute/agile.suffix": "of Dexterity",
+
+    "affix.apotheotic_additions:armor/attribute/steel_touched": "Steel Touched",
+    "affix.apotheotic_additions:armor/attribute/steel_touched.suffix": "of the Defender",
+
+    "affix.apotheotic_additions:armor/attribute/stalwart": "Stalwart",
+    "affix.apotheotic_additions:armor/attribute/stalwart.suffix": "of Stubbornness",
+
+    "affix.apotheotic_additions:armor/attribute/elastic": "Elastic",
+    "affix.apotheotic_additions:armor/attribute/elastic.suffix": "of the Climb",
+
+    "affix.apotheotic_additions:armor/attribute/fortunate": "Fortunate",
+    "affix.apotheotic_additions:armor/attribute/fortunate.suffix": "of the Four-Leaf Clover",
+    
+    "affix.apotheotic_additions:armor/attribute/winged": "Winged",
+    "affix.apotheotic_additions:armor/attribute/winged.suffix": "of the Skies",
+
+    "affix.apotheotic_additions:sword/attribute/intricate": "Intricate",
+    "affix.apotheotic_additions:sword/attribute/intricate.suffix": "of Critical Thinking",
+
+    "affix.apotheotic_additions:sword/attribute/lacerating": "Lacerating",
+    "affix.apotheotic_additions:sword/attribute/lacerating.suffix": "of Surgical Precision",
+
+    "affix.apotheotic_additions:sword/attribute/glacial": "Glacial",
+    "affix.apotheotic_additions:sword/attribute/glacial.suffix": "of the Frostlands",
+
+    "affix.apotheotic_additions:sword/attribute/infernal": "Infernal",
+    "affix.apotheotic_additions:sword/attribute/infernal.suffix": "of the Sun",
+
+    "affix.apotheotic_additions:sword/attribute/vampiric": "Vampiric",
+    "affix.apotheotic_additions:sword/attribute/vampiric.suffix": "of Bloodletting",
+
+    "affix.apotheotic_additions:sword/attribute/piercing": "Piercing",
+    "affix.apotheotic_additions:sword/attribute/piercing.suffix": "of the Sunderer",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/shredding": "Shredding",
+    "affix.apotheotic_additions:heavy_weapon/attribute/shredding.suffix": "of Penetration",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/giant_slaying": "Giant Slaying",
+    "affix.apotheotic_additions:heavy_weapon/attribute/giant_slaying.suffix": "of Colossal Strikes",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/berserking": "Berserking",
+    "affix.apotheotic_additions:heavy_weapon/attribute/berserking.suffix": "of the Berserker",
+
+    "affix.apotheotic_additions:breaker/attribute/destructive": "Destructive",
+    "affix.apotheotic_additions:breaker/attribute/destructive.suffix": "of Quarrying",
+
+    "affix.apotheotic_additions:ranged/attribute/elven": "Elven",
+    "affix.apotheotic_additions:ranged/attribute/elven.suffix": "of the First Archer",
+
+    "affix.apotheotic_additions:ranged/attribute/streamlined": "Streamlined",
+    "affix.apotheotic_additions:ranged/attribute/streamlined.suffix": "of the Sniper",
+    
+    "affix.apotheotic_additions:sword/mob_effect/elusive": "Elusive",
+    "affix.apotheotic_additions:sword/mob_effect/elusive.suffix": "of Evasion",
+
+    "affix.apotheotic_additions:breaker/mob_effect/swift": "Swift",
+    "affix.apotheotic_additions:breaker/mob_effect/swift.suffix": "of Smashing",
+
+    "affix.apotheotic_additions:breaker/mob_effect/spelunkers": "Spelunker's",
+    "affix.apotheotic_additions:breaker/mob_effect/spelunkers.suffix": "of Cave Exploration",
+
+    "affix.apotheotic_additions:ranged/mob_effect/ensnaring": "Ensnaring",
+    "affix.apotheotic_additions:ranged/mob_effect/ensnaring.suffix": "of the Predator",
+
+    "affix.apotheotic_additions:shield/mob_effect/venomous": "Venomous",
+    "affix.apotheotic_additions:shield/mob_effect/venomous.suffix": "of the Snake",
+
+    "affix.apotheotic_additions:ranged/mob_effect/fleeting": "Fleeting", 
+    "affix.apotheotic_additions:ranged/mob_effect/fleeting.suffix": "of the Ranger",
+
+    "affix.apotheotic_additions:sword/mob_effect/weakening": "Weakening",
+    "affix.apotheotic_additions:sword/mob_effect/weakening.suffix": "of Weakness",
+
+    "affix.apotheotic_additions:armor/mob_effect/bolstering": "Bolstering",
+    "affix.apotheotic_additions:armor/mob_effect/bolstering.suffix": "of Fortitude",
+
+    "affix.apotheotic_additions:armor/mob_effect/revitalizing": "Revitalizing",
+    "affix.apotheotic_additions:armor/mob_effect/revitalizing.suffix": "of the Wellspring",
+
+    "affix.apotheotic_additions:armor/mob_effect/nimble": "Nimble",
+    "affix.apotheotic_additions:armor/mob_effect/nimble.suffix": "of the Fox",
+
+    "affix.apotheotic_additions:armor/mob_effect/blinding": "Blinding",
+    "affix.apotheotic_additions:armor/mob_effect/blinding.suffix": "of Darkness",
+
+    "affix.apotheotic_additions:ranged/mob_effect/shulkers": "Shulk-Touched",
+    "affix.apotheotic_additions:ranged/mob_effect/shulkers.suffix": "of Levitation",
+
+    "affix.apotheotic_additions:shield/mob_effect/withering": "Withering",
+    "affix.apotheotic_additions:shield/mob_effect/withering.suffix": "of the Dark Skeleton",
+
+    "affix.apotheotic_additions:shield/attribute/ironforged": "Ironforged",
+    "affix.apotheotic_additions:shield/attribute/ironforged.suffix": "of Iron",
+
+    "affix.apotheotic_additions:shield/attribute/steel_touched": "Steel Touched",
+    "affix.apotheotic_additions:shield/attribute/steel_touched.suffix": "of the Defender",
+
+    "affix.apotheotic_additions:ranged/mob_effect/ivy_laced": "Ivy Laced",
+    "affix.apotheotic_additions:ranged/mob_effect/ivy_laced.suffix": "of Natural Toxins",
+
+    "affix.apotheotic_additions:ranged/mob_effect/satanic": "Satanic",
+    "affix.apotheotic_additions:ranged/mob_effect/satanic.suffix": "of the Burning Hells",
+
+    "affix.apotheotic_additions:ranged/special/spectral": "Spectral",
+    "affix.apotheotic_additions:ranged/special/spectral.suffix": "of the Forlorn",
+    "affix.apotheotic_additions:ranged/special/spectral.desc": "You have a %s%% chance to shoot a second arrow.",
+    
+    "affix.apotheotic_additions:ranged/special/magical": "Magical",
+    "affix.apotheotic_additions:ranged/special/magical.suffix": "of the Arcane",
+    "affix.apotheotic_additions:ranged/special/magical.desc": "Your arrows deal magic damage.",
+    
+    "affix.apotheotic_additions:sword/special/festive": "Festive",
+    "affix.apotheotic_additions:sword/special/festive.suffix": "of Partying",
+    "affix.apotheotic_additions:sword/special/festive.desc": "Slain enemies have a %s%% chance to be a Loot Piñata",
+    
+    "affix.apotheotic_additions:sword/special/thunderstruck": "Thunderstruck",
+    "affix.apotheotic_additions:sword/special/thunderstruck.suffix": "of the Storm",
+    "affix.apotheotic_additions:sword/special/thunderstruck.desc": "Your attacks deal %s damage to nearby enemies.",
+    
+    "affix.apotheotic_additions:shield/special/retreating": "Retreating",
+    "affix.apotheotic_additions:shield/special/retreating.suffix": "of the Jester",
+    "affix.apotheotic_additions:shield/special/retreating.desc": "You will leap back when blocking in melee.",
+    
+    "affix.apotheotic_additions:telepathic": "Telepathic",
+    "affix.apotheotic_additions:telepathic.suffix": "of Space and Time",
+    "affix.apotheotic_additions:telepathic.desc.weapon": "Mob drops will teleport to you.",
+    "affix.apotheotic_additions:telepathic.desc.tool": "Block drops will teleport to you.",
+
+    "affix.apotheotic_additions:heavy_weapon/special/executing": "Executing",
+    "affix.apotheotic_additions:heavy_weapon/special/executing.suffix": "of the Executioner",
+    "affix.apotheotic_additions:heavy_weapon/special/executing.desc": "Enemies below %s%% max health will be executed.",
+    
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving": "Cleaving",
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving.suffix": "of the Butcher",
+    "affix.apotheotic_additions:heavy_weapon/special/cleaving.desc": "Attacks have a %s%% chance to also hit up to %s nearby enemies.",
+
+    "affix.apotheotic_additions:breaker/special/enlightened": "Enlightened",
+    "affix.apotheotic_additions:breaker/special/enlightened.suffix": "of the Lightbringer",
+    "affix.apotheotic_additions:breaker/special/enlightened.desc": "This tool can place a torch at the cost of %s durability.",
+
+    "affix.apotheotic_additions:shield/special/psychic": "Psychic",
+    "affix.apotheotic_additions:shield/special/psychic.suffix": "of the Vengeful",
+    "affix.apotheotic_additions:shield/special/psychic.desc": "Blocking a projectile deals %s%% of the damage to the shooter.",
+
+    "affix.apotheotic_additions:shield/special/catalyzing": "Catalyzing",
+    "affix.apotheotic_additions:shield/special/catalyzing.suffix": "of the Converted",
+    "affix.apotheotic_additions:shield/special/catalyzing.desc": "Blocking an explosion will grant you great strength.",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/annihilating": "Annihilating",
+    "affix.apotheotic_additions:heavy_weapon/attribute/annihilating.suffix": "of the Titan",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/decimating": "Decimating",
+    "affix.apotheotic_additions:heavy_weapon/attribute/decimating.suffix": "of the God-King",
+    
+    "affix.apotheotic_additions:heavy_weapon/attribute/murderous": "Murderous",
+    "affix.apotheotic_additions:heavy_weapon/attribute/murderous.suffix": "of the Minotaur",
+    
+    "affix.apotheotic_additions:ranged/mob_effect/acidic": "Acidic",
+    "affix.apotheotic_additions:ranged/mob_effect/acidic.suffix": "of Corrosion",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/bloodletting": "Caustic",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/bloodletting.suffix": "of the Slayer",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/caustic": "Caustic",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/caustic.suffix": "of the Caustic Realm",
+
+    "affix.apotheotic_additions:sword/mob_effect/sophisticated": "Sophisticated",
+    "affix.apotheotic_additions:sword/mob_effect/sophisticated.suffix": "of the Ancient Library",
+
+    "affix.apotheotic_additions:shield/mob_effect/devilish": "Devilish",
+    "affix.apotheotic_additions:shield/mob_effect/devilish.suffix": "of the Veteran",
+
+    "affix.apotheotic_additions:breaker/special/radial": "Radial",
+    "affix.apotheotic_additions:breaker/special/radial.suffix": "of the Earthbreaker",
+    "affix.apotheotic_additions:breaker/special/radial.desc": "This tool breaks in a %sx%s area.",
+
+    "affix.apotheotic_additions:melee_weapon/mob_effect/detonating": "Detonating",
+    "affix.apotheotic_additions:melee_weapon/mob_effect/detonating.suffix": "of the Elemental Flame",
+    
+    "misc.apotheosis.iron": "iron",
+    "misc.apotheosis.diamond": "diamond",
+    "misc.apotheosis.netherite": "netherite",
+    
+    "affix.apotheotic_additions:breaker/special/omnetic": "Omnetic",
+    "affix.apotheotic_additions:breaker/special/omnetic.suffix": "of the Singularity",
+    "affix.apotheotic_additions:breaker/special/omnetic.desc": "This tool has %s effectiveness against all blocks.",
+    
+    "misc.apotheosis.physical": "Physical",
+    "misc.apotheosis.magic": "Magic",
+    "misc.apotheosis.fire": "Fire",
+    "misc.apotheosis.fall": "Fall",
+    "misc.apotheosis.explosion": "Explosive",
+    "affix.apotheotic_additions:damage_reduction.desc": "%s damage taken is reduced by %s%%",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/blockading": "Blockading",
+    "affix.apotheotic_additions:armor/dmg_reduction/blockading.suffix": "of the Blockade",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/runed": "Runed",
+    "affix.apotheotic_additions:armor/dmg_reduction/runed.suffix": "of the Spellwarden",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/blast_forged": "Blast-Forged",
+    "affix.apotheotic_additions:armor/dmg_reduction/blast_forged.suffix": "of the Forge God",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/dwarven": "Dwarven",
+    "affix.apotheotic_additions:armor/dmg_reduction/dwarven.suffix": "of the Volcano",
+
+    "affix.apotheotic_additions:armor/dmg_reduction/feathery": "Feathery",
+    "affix.apotheotic_additions:armor/dmg_reduction/feathery.suffix": "of the Eagle",
+
+    "affix.apotheotic_additions:shield/attribute/stalwart": "Stalwart",
+    "affix.apotheotic_additions:shield/attribute/stalwart.suffix": "of Stubbornness",
+
+    "affix.apotheotic_additions:armor/attribute/spiritual": "Spiritual",
+    "affix.apotheotic_additions:armor/attribute/spiritual.suffix": "of the Witch Doctor",
+    
+    "affix.apotheotic_additions:breaker/attribute/lucky": "Lucky",
+    "affix.apotheotic_additions:breaker/attribute/lucky.suffix": "of the Serendipitous",
+
+    "affix.apotheotic_additions:heavy_weapon/attribute/nullifying": "Nullifying",
+    "affix.apotheotic_additions:heavy_weapon/attribute/nullifying.suffix": "of the Magebreaker",
+
+    "affix.apotheotic_additions:sword/attribute/spellbreaking": "Spellbreaking",
+    "affix.apotheotic_additions:sword/attribute/spellbreaking.suffix": "of the Petricite Golem",
+
+    "affix.apotheotic_additions:ranged/mob_effect/grievous": "Grievous",
+    "affix.apotheotic_additions:ranged/mob_effect/grievous.suffix": "of Wounding",
+
+    "affix.apotheotic_additions:armor/mob_effect/bursting": "Bursting",
+    "affix.apotheotic_additions:armor/mob_effect/bursting.suffix": "of Vitality",
+
+    "affix.apotheotic_additions:durable": "Durable",
+    "affix.apotheotic_additions:durable.suffix": "of Durability"
 }
