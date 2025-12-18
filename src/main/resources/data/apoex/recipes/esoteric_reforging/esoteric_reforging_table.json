@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "esotericreforging"
+	}],
+  "group": "something",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "apotheotic_additions:heirloom_material"
+    },
+	"B": {
+      "item": "apotheotic_additions:artifact_material"
+    },
+	"C": {
+      "item": "ancientreforging:ancient_reforging_table"
+    },
+	"D": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "esotericreforging:esoteric_reforging_table",
+    "count": 1
+  }
+}
