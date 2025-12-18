@@ -22,4 +22,4 @@ forge 1.20.1
 > ver.0.0.3-alphaの内容
 - ファイルの整理
 - 元のApotheosisのAffix情報が上書きされてしまう問題を修正
-- apotheotic additionsが無いのに要求してクラッシュする問題を修正
+- 一部の動作でapotheotic additionsが無いのに要求してクラッシュする問題を修正
