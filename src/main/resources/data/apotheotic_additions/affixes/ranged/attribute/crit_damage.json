@@ -1,0 +1,57 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:crit_damage",
+	"operation": "MULTIPLY_BASE",
+	"values": {
+		"common": {
+			"min": 0.03,
+			"steps": 2,
+			"step": 0.01
+		},
+		"uncommon": {
+			"min": 0.04,
+			"steps": 3,
+			"step": 0.01
+		},
+		"rare": {
+			"min": 0.06,
+			"steps": 3,
+			"step": 0.03
+		},
+		"epic": {
+			"min": 0.12,
+			"steps": 3,
+			"step": 0.04
+		},
+		"mythic": {
+			"min": 0.14,
+			"steps": 4,
+			"step": 0.05
+		},
+		"ancient": {
+			"min": 0.16,
+			"steps": 5,
+			"step": 0.06
+		},
+		"apotheotic_additions:artifact": {
+			"min": 0.18,
+			"steps": 5,
+			"step": 0.08
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.09,
+			"steps": 5,
+			"step": 0.08
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 0.24,
+			"steps": 7,
+			"step": 0.08
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

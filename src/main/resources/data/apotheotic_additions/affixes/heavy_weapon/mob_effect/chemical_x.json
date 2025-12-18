@@ -1,0 +1,23 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "mutantmonsters"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "mutantmonsters:chemical_x",
+	"target": "ATTACK_TARGET",
+	"values": {
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 320,
+				"steps": 6,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

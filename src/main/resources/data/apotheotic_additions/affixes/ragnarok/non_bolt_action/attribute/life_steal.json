@@ -1,0 +1,35 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apotheotic_additions"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "attributeslib:life_steal",
+  "operation": "ADDITION",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 0.06,
+      "steps": 20,
+      "step": 0.002
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 0.07,
+      "steps": 20,
+      "step": 0.002
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 0.1,
+      "steps": 25,
+      "step": 0.002
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto"
+  ]
+}
