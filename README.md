@@ -9,5 +9,5 @@ Apotheosisとその他のmodとの連携や拡張を行うmodです
 > ver.0.0.2-alphaの内容
 - Apotheotic Additionsで追加されたAffixのレアリティのそれぞれの能力値の問題を修正
   > 修正内容: 
-  > sword、heavy weapon、armor、breaker、shield、ranged の能力値
+  > sword、heavy weapon、armor、breaker、shield、ranged のArtifact、heirloom、esotericのaffixの能力値
 - ファイルの整理
