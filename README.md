@@ -17,3 +17,6 @@ forge 1.20.1
   > 修正内容: 
   > sword、heavy weapon、armor、breaker、shield、ranged のArtifact、heirloom、esotericのaffixの能力値
 - ファイルの整理
+> ver.0.0.2-alpha-fixの内容
+- Apotheosis Additionsの全てのAffixレアリティの防具の属性ダメージ耐性を全体的に下げました
+- Affixの能力が重複していたためファイルの整理
