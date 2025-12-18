@@ -1,7 +1,13 @@
 # **APOEX - Apotheosis EX**
 Apotheosisとその他のmodとの連携や拡張を行うmodです
+## 対応modloaderとバージョン
+forge 1.20.1
 ## 前提mod
 - [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
+## 連携Mod
+- Apotheotic Additions
+- Apotheosis Modern Ragnarok: Zero
+- Esoteric Reforging
 ## version.log
 > ver.0.0.1-alphaの内容
 - Apotheotic AdditionsとApotheosis Modern Ragnarok: Zeroによる銃火器のAffixレアリティがともなっていない問題と、欠如を修正
