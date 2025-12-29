@@ -18,3 +18,7 @@
 - ファイルの整理
 - データパックの上下関係により動作が不安定になってしまう問題を修正
 - Apothetic Additionsの特定のAffixレアリティの一部の能力値を下げました
+> ver.0.0.6-alphaの内容
+- Mekasuit Gemの追加
+- addonAPIを前提に追加
+- EXソケット追加
