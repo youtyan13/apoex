@@ -640,7 +640,7 @@
   "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "精神疲労の",
   "comment": "apotheosis本家",
   "affix.apotheotic_additions:armor/attribute/blessed": "祝福された",
-    "affix.apotheotic_additions:armor/attribute/blessed.suffix": "壮健な",
+  "affix.apotheotic_additions:armor/attribute/blessed.suffix": "壮健な",
 
     "affix.apotheotic_additions:armor/attribute/windswept": "吹きさらされた",
     "affix.apotheotic_additions:armor/attribute/windswept.suffix": "つむじ風の",
@@ -907,5 +907,9 @@
     "affix.apotheotic_additions:armor/mob_effect/bursting.suffix": "生命力の",
 
     "affix.apotheotic_additions:durable": "丈夫な",
-    "affix.apotheotic_additions:durable.suffix": "極上の"
+    "affix.apotheotic_additions:durable.suffix": "極上の",
+  "comment":"apoexの内容",
+  "socket.apoex.empty": "空のEXソケット",
+  "item.apoex.ex_socket_key": "EXソケットキー",
+  "item.apoex.mek_suits_gem": "メカスーツジェム"
 }

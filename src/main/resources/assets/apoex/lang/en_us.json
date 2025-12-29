@@ -908,5 +908,9 @@
     "affix.apotheotic_additions:armor/mob_effect/bursting.suffix": "of Vitality",
 
     "affix.apotheotic_additions:durable": "Durable",
-    "affix.apotheotic_additions:durable.suffix": "of Durability"
+    "affix.apotheotic_additions:durable.suffix": "of Durability",
+  "comment":"apoex source",
+  "socket.apoex.empty": "empty ex socket",
+  "item.apoex.ex_socket_key": "EX Socket Key",
+  "item.apoex.mek_suits_gem": "MekaSuit Gem"
 }
