@@ -64,6 +64,6 @@ side = "BOTH"
 [[dependencies.${mod_id}]]
 modId = "addonapi"
 mandatory = true
-versionRange = "1.2.0"
+versionRange = "${addonapi_version}"
 ordering = "BEFORE"
 side = "BOTH"
