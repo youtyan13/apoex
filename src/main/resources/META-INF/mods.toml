@@ -6,6 +6,10 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
+mixins = [
+    "apoex.mixins.json",
+    "apoex.mekanism.mixins.json"
+]
 description='''${mod_description}'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
@@ -33,19 +37,33 @@ description='''${mod_description}'''
 modId="apotheosis"
 mandatory=true
 versionRange="${apo_version}"
-ordering="AFTER"
+ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="apotheotic_additions"
 mandatory=false
 versionRange="${apo_additions_version}"
-ordering="AFTER"
+ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId = "apotheosis_modern_ragnarok"
 mandatory = false
 versionRange = "${apo_modern_ragnarok_version}"
-ordering = "AFTER"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "mekanism"
+mandatory = false
+versionRange = "${mekanism_version}"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "addonapi"
+mandatory = true
+versionRange = "1.2.0"
+ordering = "BEFORE"
 side = "BOTH"
