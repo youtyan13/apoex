@@ -7,3 +7,4 @@ forge 1.20.1
 ## 連携Mod
 - Apotheotic Additions
 - Esoteric Reforging
+- Mekanism
