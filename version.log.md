@@ -1,4 +1,5 @@
 ## version.log
+# alpha
 > ver.0.0.1-alphaの内容
 - Apotheotic AdditionsとApotheosis Modern Ragnarok: Zeroによる銃火器のAffixレアリティがともなっていない問題と、欠如を修正
 - Esoteric ReforgingによるEsoteric Reforging Tableのレシピを追加
@@ -22,3 +23,6 @@
 - Mekasuit Gemの追加
 - addonAPIを前提に追加
 - EXソケット追加
+# BETA
+> ver.0.0.7-betaの内容
+- JEI対応
