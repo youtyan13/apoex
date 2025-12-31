@@ -61,7 +61,7 @@ public class ApoExSmithingCategory implements IRecipeCategory<ApoExAddSocketReci
 
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, ApoExAddSocketRecipe recipe, IFocusGroup focuses) {
-        builder.addSlot(RecipeIngredientRole.INPUT, 16, 1).addIngredients(recipe.getTemplate());
+        builder.addSlot(RecipeIngredientRole.INPUT, 17, 1).addIngredients(recipe.getTemplate());
         builder.addSlot(RecipeIngredientRole.INPUT, 35, 1).addIngredients(recipe.getBase());
         builder.addSlot(RecipeIngredientRole.INPUT, 53, 1).addIngredients(recipe.getAddition());
 

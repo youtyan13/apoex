@@ -61,7 +61,7 @@ public class GemSmithingCategory implements IRecipeCategory<ApoExSmithingRecipe>
 
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, ApoExSmithingRecipe recipe, IFocusGroup focuses) {
-        builder.addSlot(RecipeIngredientRole.INPUT, 16, 1).addIngredients(recipe.getTemplate());
+        builder.addSlot(RecipeIngredientRole.INPUT, 17, 1).addIngredients(recipe.getTemplate());
 
         List<ItemStack> baseInputs = Arrays.stream(recipe.getBase().getItems())
                 .map(ItemStack::copy)
