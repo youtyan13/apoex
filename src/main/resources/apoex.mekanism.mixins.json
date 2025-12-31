@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.youtyan.apoex.mixin.mekanism",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "apoex.refmap.json",
+  "client": [
+    "client.MixinGuiGraphics",
+    "client.MixinMekaSuitEnergyLevel",
+    "client.MixinMekaSuitBarDecorator",
+    "client.MixinMekanismHUD",
+    "client.MixinGuiModuleScrollList",
+    "client.ChemicalFluidBarDecoratorAccessor",
+    "client.MixinGuiModuleTweaker",
+    "client.MixinHUDRenderer",
+    "client.MixinArmorItemClient"
+  ],
+  "mixins": [
+    "inventory.MixinModuleTweakerContainer",
+    "MixinArmorItem",
+    "MixinTileEntityModificationStation",
+    "MixinModuleHelper",
+    "module.MixinModuleNutritionalInjectionUnit",
+    "module.MixinModuleJetpackUnit",
+    "minecraft.MixinEnchantmentHelper",
+    "network.MixinPacketUpdateModuleSettings"
+
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "conformVisibility": true
+  },
+  "plugin": "com.youtyan.apoex.compat.mekanism.ApoExMekanismMixinPlugin"
+}
