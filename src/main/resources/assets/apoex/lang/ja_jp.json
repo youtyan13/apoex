@@ -911,5 +911,10 @@
   "comment":"apoexの内容",
   "socket.apoex.empty": "空のEXソケット",
   "item.apoex.ex_socket_key": "EXソケットキー",
-  "item.apoex.mek_suits_gem": "メカスーツジェム"
+  "item.apoex.mek_suits_gem": "メカスーツジェム",
+  "category.apoex.gem_smithing": "EXジェム装着",
+  "category.apoex.socket_adding": "EXソケット装着",
+  "text.apoex.add_socket": "一つしか付けれません",
+  "text.apoex.set_gem": "EXジェムを装着します",
+  "itemGroup.apoex": "APOEX"
 }

@@ -912,5 +912,10 @@
   "comment":"apoex source",
   "socket.apoex.empty": "empty ex socket",
   "item.apoex.ex_socket_key": "EX Socket Key",
-  "item.apoex.mek_suits_gem": "MekaSuit Gem"
+  "item.apoex.mek_suits_gem": "MekaSuit Gem",
+  "category.apoex.gem_smithing": "EX Gem Smithing",
+  "category.apoex.socket_adding": "EX Socket Application",
+  "text.apoex.add_socket": "Only one can be applied per item.",
+  "text.apoex.set_gem": "Inserts an EX Gem into a socket.",
+  "itemGroup.apoex": "APOEX"
 }
