@@ -74,6 +74,18 @@ repositories {
     }
 
     maven { url = "https://maven.createmod.net" }
+    maven {
+        name = "Progwml6's maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
 
 
     flatDir {
@@ -94,6 +106,9 @@ dependencies {
     implementation fg.deobf("curse.maven:moffs-addonapi-dynload-1242459:6420515")
     implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:7278003")
     implementation fg.deobf("curse.maven:apothic-attributes-898963:5634071")
+    implementation fg.deobf("curse.maven:jei-238222:7391695")
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
     // Mekanism - 修正された依存関係設定
 
@@ -109,7 +124,7 @@ tasks.named('processResources', ProcessResources).configure {
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_authors: mod_authors, mod_description: mod_description,
             apo_version: apo_version, apo_additions_version: apo_additions_version, apo_modern_ragnarok_version: apo_modern_ragnarok_version,
-            mekanism_version: mekanism_version, addonapi_version: addonapi_version
+            mekanism_version: mekanism_version, addonapi_version: addonapi_version, jei_version: jei_version
     ]
     inputs.properties replaceProperties
 
