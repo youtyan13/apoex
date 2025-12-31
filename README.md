@@ -8,3 +8,5 @@ forge 1.20.1
 - Apotheotic Additions
 - Esoteric Reforging
 - Mekanism
+## バージョンログ
+- [Version Log](https://github.com/youtyan13/apoex/blob/main/version.log.md)
