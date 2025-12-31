@@ -4,14 +4,9 @@ import com.youtyan.apoex.integration.mekanism.MekSuitGemIntegration;
 import com.youtyan.apoex.util.mekanism.ApoExModuleHelper;
 import com.youtyan.apoex.util.mekanism.IMekArmorAccessor;
 import mekanism.api.Action;
-import mekanism.api.NBTConstants;
 import mekanism.api.gear.IModule;
 import mekanism.api.gear.ModuleData;
 import mekanism.api.math.FloatingLong;
-import mekanism.api.text.EnumColor;
-import mekanism.client.key.MekKeyHandler;
-import mekanism.client.key.MekanismKeyHandler;
-import mekanism.common.MekanismLang;
 import mekanism.common.capabilities.Capabilities;
 import mekanism.common.capabilities.ItemCapabilityWrapper;
 import mekanism.common.capabilities.ItemCapabilityWrapper.ItemCapability;
@@ -36,14 +31,9 @@ import mekanism.common.registries.MekanismFluids;
 import mekanism.common.registries.MekanismGases;
 import mekanism.common.registries.MekanismModules;
 import mekanism.common.util.ChemicalUtil;
-import mekanism.common.util.ItemDataUtils;
-import mekanism.common.util.MekanismUtils;
-import mekanism.common.util.StorageUtils;
 import mekanism.api.chemical.gas.Gas;
-import net.minecraft.nbt.ListTag;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.Style;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -52,9 +42,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
@@ -67,7 +54,6 @@ import org.spongepowered.asm.mixin.Unique;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.LongSupplier;
 import java.util.function.IntSupplier;
@@ -83,8 +69,6 @@ public abstract class MixinArmorItem extends Item implements IJetpackItem, IMode
     public MixinArmorItem(Properties properties) {
         super(properties);
     }
-
-
 
     @Override
     public void addHUDStrings(List<Component> list, Player player, ItemStack stack, EquipmentSlot slotType) {
@@ -155,36 +139,6 @@ public abstract class MixinArmorItem extends Item implements IJetpackItem, IMode
         }
         return super.initCapabilities(stack, nbt);
     }
-
-    @Override public boolean isBarVisible(@NotNull ItemStack stack) { if (MekSuitGemIntegration.isMekArmor(stack)) return true; return super.isBarVisible(stack); }
-    @Override public int getBarWidth(@NotNull ItemStack stack) { if (MekSuitGemIntegration.isMekArmor(stack)) return StorageUtils.getEnergyBarWidth(stack); return super.getBarWidth(stack); }
-    @Override public int getBarColor(@NotNull ItemStack stack) { if (MekSuitGemIntegration.isMekArmor(stack)) return MekanismConfig.client.energyColor.get(); return super.getBarColor(stack); }
-
-    @Override
-    public void appendHoverText(@NotNull ItemStack stack, @Nullable Level world, @NotNull List<Component> tooltip, @NotNull TooltipFlag flag) {
-        if (MekSuitGemIntegration.isMekArmor(stack)) {
-            if (MekKeyHandler.isKeyPressed(MekanismKeyHandler.detailsKey)) {
-                for (IModule<?> module : ApoExModuleHelper.getModules(stack)) {
-                    ModuleData<?> data = module.getData();
-                    int installed = module.getInstalledCount();
-                    int max = data.getMaxStackSize();
-                    Component name = data.getTextComponent().copy().withStyle(Style.EMPTY.withColor(EnumColor.GRAY.getColor()));
-                    if (installed >= 2) {
-                        Component countInfo = Component.literal(" (" + installed + "/" + max + ")").withStyle(Style.EMPTY.withColor(EnumColor.GRAY.getColor()));
-                        tooltip.add(Component.empty().append(name).append(countInfo));
-                    } else { tooltip.add(name); }
-                }
-            } else {
-                StorageUtils.addStoredEnergy(stack, tooltip, true);
-                if (this.getType() == ArmorItem.Type.CHESTPLATE) StorageUtils.addStoredGas(stack, tooltip, true, false);
-                if (this.getType() == ArmorItem.Type.HELMET) StorageUtils.addStoredFluid(stack, tooltip, true);
-                tooltip.add(MekanismLang.HOLD_FOR_MODULES.translateColored(EnumColor.GRAY, EnumColor.INDIGO, MekanismKeyHandler.detailsKey.getTranslatedKeyMessage()));
-            }
-        } else {
-            super.appendHoverText(stack, world, tooltip, flag);
-        }
-    }
-
 
     @Unique private FloatingLong getMaxEnergy(ItemStack stack) { IModule<ModuleEnergyUnit> module = ApoExModuleHelper.getModule(stack, MekanismModules.ENERGY_UNIT.get()); return module == null ? MekanismConfig.gear.mekaSuitBaseEnergyCapacity.get() : module.getCustomInstance().getEnergyCapacity(module); }
     @Unique private FloatingLong getChargeRate(ItemStack stack) { IModule<ModuleEnergyUnit> module = ApoExModuleHelper.getModule(stack, MekanismModules.ENERGY_UNIT.get()); return module == null ? MekanismConfig.gear.mekaSuitBaseChargeRate.get() : module.getCustomInstance().getChargeRate(module); }
