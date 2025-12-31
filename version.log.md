@@ -26,3 +26,5 @@
 # BETA
 > ver.0.0.7-betaの内容
 - JEI対応
+> ver.0.0.7-betaaの内容
+- bug fix
